@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="45dp">
+
+    <TextView
+        android:id="@+id/textinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:textSize ="20dp"
+        android:textColor="#7032DF"
+        android:text="Version Relative Layout"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <EditText
+        android:id="@+id/nombre_iRL"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textinfo"
+        android:layout_marginTop="16dp"
+        android:hint="Nombre"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/apellido_idRL"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/nombre_iRL"
+        android:layout_marginTop="8dp"
+        android:hint="Apellido"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/paswoord_idRL"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/apellido_idRL"
+        android:layout_marginTop="8dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edad_idRL"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/paswoord_idRL"
+        android:layout_marginTop="20dp"
+        android:hint="Edad"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/boton_enviarRL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edad_idRL"
+        android:layout_marginTop="24dp"
+        android:text="Registro" />
+
+    <Button
+        android:id="@+id/botoncsCl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="171dp"
+        android:text="Constrain layout" />
+
+
+</RelativeLayout>
